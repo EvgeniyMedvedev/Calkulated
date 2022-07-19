@@ -18,15 +18,19 @@ public class Main {
         num2 = read.nextByte();
 
          if (num1 < 0){
+              //попробуй здесь исключения
              System.out.println("Введенное число " + num1 + " отрицательное");
          }
          else if  (num1 >= 11) {
+              //попробуй здесь исключения
              System.out.println("Введенное число " + num1 + " больше 10");
          }
          else if (num2 < 0) {
+              //попробуй здесь исключения
              System.out.println("Введенное число " + num2 + " отрицательное");
          }
          else if (num2 >= 11) {
+              //попробуй здесь исключения
              System.out.println("Введенное число " + num2 + " больше 10");
          }
 
